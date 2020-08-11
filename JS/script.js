@@ -65,16 +65,16 @@ function preencherMeuCookie() {
 }
 
 function k(){
-  window.location.href = "https://brainer.glitch.me/pesquisa.html";
-  console.log("eae");
+    window.location.href = "https://brainer.glitch.me/pesquisa.html";
+    console.log("eae");
 }
 
 function entrar() {  
   var pesquisaValor = $(".inputPesqId").val();
   
-  criarCookie("Pesquisa", pesquisaValor, 2);
+    criarCookie1("Teste", testeValor, 2);
   
-  validarCookiePesq();
+    validarCookiePesq();
 }
 
 function criarCookie(campo, valor, dias) {
@@ -115,8 +115,33 @@ function j(){
   vr.textContent = v1;
 }
 
+function myFunction() {
+  // Get the checkbox
+  var checkkkBox = document.getElementById("agostoCheck");
+  var checkBox = document.getElementById("maioCheck");
+  var checkkBox = document.getElementById("abrilCheck");
+  // Get the output text
+
+  // If the checkbox is checked, display the output text
+  if (checkkkBox.checked == true){
+    $("#agosto").show();
+  } else {
+    $("#agosto").hide();
+  }
+  if (checkBox.checked == true){
+    $("#maio").show();
+  } else {
+    $("#maio").hide();
+  }
+  if (checkkBox.checked == true){
+    $("#abril").show();
+  } else {
+    $("#abril").hide();
+  }
+}
+
 // Set the date we're counting down to
-var countDownDate = new Date("May 03, 2020 23:30:00").getTime();
+var countDownDate = new Date("Aug 15, 2020 21:00:00").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function() {
@@ -140,60 +165,6 @@ var x = setInterval(function() {
   // If the count down is finished, write some text
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("demo").innerHTML = "A notícia será postada em breve";
-  }
-}, 1000);
-
-function myFunction() {
-  // Get the checkbox
-  var checkkkBox = document.getElementById("julhoCheck");
-  var checkBox = document.getElementById("maioCheck");
-  var checkkBox = document.getElementById("abrilCheck");
-  // Get the output text
-
-  // If the checkbox is checked, display the output text
-  if (checkkkBox.checked == true){
-    $("#julho").show();
-  } else {
-    $("#julho").hide();
-  }
-  if (checkBox.checked == true){
-    $("#maio").show();
-  } else {
-    $("#maio").hide();
-  }
-  if (checkkBox.checked == true){
-    $("#abril").show();
-  } else {
-    $("#abril").hide();
-  }
-}
-
-// Set the date we're counting down to
-var countDownDate2 = new Date("Aug 15, 2020 21:00:00").getTime();
-
-// Update the count down every 1 second
-var x = setInterval(function() {
-
-  // Get today's date and time
-  var now = new Date().getTime();
-
-  // Find the distance between now and the count down date
-  var distance = countDownDate2 - now;
-
-  // Time calculations for days, hours, minutes and seconds
-  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-  // Display the result in the element with id="demo"
-  document.getElementById("demo2").innerHTML = days + "d " + hours + "h "
-  + minutes + "m " + seconds + "s ";
-
-  // If the count down is finished, write some text
-  if (distance < 0) {
-    clearInterval(x);
-    document.getElementById("demo2").innerHTML = "🛠 A notícia será postada em breve 🛠";
+    document.getElementById("demo").innerHTML = "🛠 A notícia será postada em breve 🛠";
   }
 }, 1000);

@@ -345,6 +345,7 @@ input[type=checkbox]
     height:155px;
     text-align: center;
     padding: 10px;
+    margin-top:auto;
 }
 
 .carousel-indicators .active{
@@ -489,7 +490,7 @@ input[type=checkbox]
   text-align:start;
 }
 @media only screen and (max-width: 600px) {
-  #april, #may, #july{
+  #april, #may, #august{
     margin-right:5%;
   }
 }
