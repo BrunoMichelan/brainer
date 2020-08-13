@@ -81,7 +81,7 @@ function criarCookie(campo, valor, dias) {
   
   var dataExpiracao = new Date(); // Data de agora
   
-  dataExpiracao.setTime(dataExpiracao.getTime() + (dias * 1 * 1 * 1 * 1 * 100));
+  dataExpiracao.setTime(dataExpiracao.getTime() + (dias * 1 * 1 * 1 * 1 * 500));
   
   var campoExpiracao = "expires=" + dataExpiracao.toUTCString();
   
