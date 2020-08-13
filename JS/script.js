@@ -69,7 +69,7 @@ function k(){
     console.log("eae");
 }
 
-function entrar() {  
+function pesquisar() {  
   var pesquisaValor = $(".inputPesqId").val();
   
     criarCookie("Pesquisa", pesquisaValor, 1);
@@ -98,7 +98,7 @@ function criarCookie(campo, valor, dias) {
             inputF.value = label.textContent; 
         } 
 
-$("#entrarButtonId").click(entrar);
+$("#pesquisarButtonId").click(pesquisar);
 
 window.onload = function() {
   gfg_Run();
