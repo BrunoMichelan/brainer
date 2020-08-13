@@ -268,7 +268,7 @@ input[type=checkbox]
 /* Add a black background color to the top navigation bar */
 .topnav {
   overflow: hidden;
-  background-color: #999e9b;
+  background-color: #707070;
   border-radius: 100px 100px 100px 100px;
 
 }
@@ -600,10 +600,10 @@ input[type=checkbox]
 }
 .overlay2 {
   position: absolute;
-  margin-left:12.25%;
+  margin-left:12.2%;
   top: 613px;
   bottom:0;
-  width:24.95%;
+  width:25%;
   height:180px;
   left: 0;
   right: 0;
@@ -614,10 +614,10 @@ input[type=checkbox]
 
 .overlay3 {
   position: absolute;
-  margin-left:37.525%;
+  margin-left:37.5%;
   top: 613px;
   bottom:0;
-  width:24.95%;
+  width:25%;
   height:180px;
   left: 0;
   right: 0;
@@ -630,7 +630,7 @@ input[type=checkbox]
   margin-left:62.8%;
   top: 613px;
   bottom:0;
-  width:24.95%;
+  width:25%;
   height:180px;
   left: 0;
   right: 0;
@@ -640,10 +640,10 @@ input[type=checkbox]
 }
 .overlay5 {
   position: absolute;
-  margin-left:12.25%;
+  margin-left:12.2%;
   top: 796px;
   bottom:0;
-  width:24.95%;
+  width:25%;
   height:180px;
   left: 0;
   right: 0;
@@ -653,10 +653,10 @@ input[type=checkbox]
 }
 .overlay6{
   position: absolute;
-  margin-left:37.525%;
+  margin-left:37.5%;
   top: 796px;
   bottom:0;
-  width:24.95%;
+  width:25%;
   height:180px;
   left: 0;
   right: 0;
@@ -669,7 +669,7 @@ input[type=checkbox]
   margin-left:62.8%;
   top: 796px;
   bottom:0;
-  width:24.95%;
+  width:25%;
   height:180px;
   left: 0;
   right: 0;

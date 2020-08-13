@@ -86,8 +86,6 @@ function criarCookie(campo, valor, dias) {
   var campoExpiracao = "expires=" + dataExpiracao.toUTCString();
   
   document.cookie = campo + "=" + valor + "; " + campoExpiracao;
-
-  document.cookie.path = path;
     
   console.log(document.cookie);
 }
