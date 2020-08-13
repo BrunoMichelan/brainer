@@ -72,7 +72,7 @@ function k(){
 function entrar() {  
   var pesquisaValor = $(".inputPesqId").val();
   
-    criarCookie("Pesquisa", pesquisaValor, 1);
+    criarCookie("Pesquisa", pesquisaValor, 2);
   
     validarCookiePesq();
 }
