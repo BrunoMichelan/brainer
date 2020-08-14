@@ -72,7 +72,7 @@ function k(){
 function pesquisar() {  
   var pesquisaValor = $(".inputPesqId").val();
   
-    criarCookie("Pesquisa", pesquisaValor, 1);
+    criarCookie("Pesquisa", pesquisaValor, 2);
   
     validarCookiePesq();
 }
@@ -81,7 +81,7 @@ function criarCookie(campo, valor, dias) {
   
   var dataExpiracao = new Date(); // Data de agora
   
-  dataExpiracao.setTime(dataExpiracao.getTime() + (dias * 1 * 1 * 1 * 1 * 1100));
+  dataExpiracao.setTime(dataExpiracao.getTime() + (dias * 1 * 1 * 1 * 1 * 600));
   
   var campoExpiracao = "expires=" + dataExpiracao.toUTCString();
   
