@@ -48,7 +48,30 @@ function validarCookiePesq() {
   
 }
 
+function validarCookieMode() {
+  
+    preencherMeuCookie2();
+    $("#labelLala").text(meuCookie.mode);
+    $("#labelLala").hide();
+    
+  }
+
 function preencherMeuCookie() {
+   //meuCookie.nome = "Regis";
+  var camposValores = document.cookie.split("; ");
+  
+  console.log(camposValores);
+  
+  for(var i=0; i<camposValores.length; i++) {
+    
+    var campo = camposValores[i].split("=");
+    
+    console.log(campo);
+    
+    meuCookie[campo[0]] = campo[1];
+  }
+}
+function preencherMeuCookie2() {
    //meuCookie.nome = "Regis";
   var camposValores = document.cookie.split("; ");
   
@@ -72,7 +95,7 @@ function k(){
 function pesquisar() {  
   var pesquisaValor = $(".inputPesqId").val();
   
-    criarCookie("Pesquisa", pesquisaValor, 2);
+    criarCookie("Pesquisa", pesquisaValor, 1);
   
     validarCookiePesq();
 }
@@ -81,7 +104,20 @@ function criarCookie(campo, valor, dias) {
   
   var dataExpiracao = new Date(); // Data de agora
   
-  dataExpiracao.setTime(dataExpiracao.getTime() + (dias * 1 * 1 * 1 * 1 * 600));
+  dataExpiracao.setTime(dataExpiracao.getTime() + (dias * 1 * 1 * 1 * 1 * 1500));
+  
+  var campoExpiracao = "expires=" + dataExpiracao.toUTCString();
+  
+  document.cookie = campo + "=" + valor + "; " + campoExpiracao;
+    
+  console.log(document.cookie);
+}
+
+function criarCookie2(campo, valor, dias) {
+  
+  var dataExpiracao = new Date(); // Data de agora
+  
+  dataExpiracao.setTime(dataExpiracao.getTime() + (dias * 9999 * 365 * 24 * 60 * 60 * 1000));
   
   var campoExpiracao = "expires=" + dataExpiracao.toUTCString();
   
@@ -91,28 +127,43 @@ function criarCookie(campo, valor, dias) {
 }
   
         function gfg_Run() { 
-        var label = document.getElementById("labelPesqId");
-        var el_down = document.getElementById("GFG_DOWN"); 
-        var inputF = document.getElementById("myinput");
-          
+            var label = document.getElementById("labelPesqId");
+            var el_down = document.getElementById("GFG_DOWN"); 
+            var inputF = document.getElementById("myinput");
+            var labelLala = document.getElementById("labelLala");
+            
             inputF.value = label.textContent; 
-        } 
+            
+            validarCookieMode();
+            
+            var labelMode = document.getElementById("labelLala").textContent;
+            var darkMode = document.getElementById("darkMode");
+            
+            if (labelMode == "true"){
+                document.body.style.backgroundColor = "#b3b3b3";
+                
+            }else{
+                document.body.style.backgroundColor = "#212326";
+                
+            }
+        }  
 
 $("#pesquisarButtonId").click(pesquisar);
 
 window.onload = function() {
-  gfg_Run();
-  validarCookiePesq();
-  window.setTimeout(j , 0);
+    gfg_Run();
+    validarCookiePesq();
+    validarCookieMode();
+    window.setTimeout(j , 0);
 };
 
 function j(){
-  console.log("1 milisegundo");
-  gfg_Run();
-  searchFunction();
-  $("#myinput").hide();
-  var vr = document.getElementById("labelV1");
-  vr.textContent = v1;
+    console.log("1 milisegundo");
+    gfg_Run();
+    searchFunction();
+    $("#myinput").hide();
+    var vr = document.getElementById("labelV1");
+    vr.textContent = v1;
 }
 
 function myFunction() {
@@ -140,6 +191,23 @@ function myFunction() {
   }
 }
 
+function onoff() {
+    var darkMode = document.getElementById("darkMode");
+    var darkModeonoff = document.querySelector('#darkMode').checked;
+    
+    if (darkMode.checked == true){
+        console.log("ativado");
+        criarCookie2("mode", darkModeonoff, 1);
+        document.body.style.backgroundColor = "#b3b3b3";
+        console.log(darkModeonoff);
+    }else {
+        console.log("desativado");
+        criarCookie2("mode", darkModeonoff, 1);
+        document.body.style.backgroundColor = "#212326";
+        console.log(darkModeonoff);
+    }
+}
+
 // Set the date we're counting down to
 var countDownDate = new Date("Aug 15, 2020 21:00:00").getTime();
 
@@ -161,7 +229,6 @@ var x = setInterval(function() {
   // Display the result in the element with id="demo"
   document.getElementById("demo").innerHTML = days + "d " + hours + "h "
   + minutes + "m " + seconds + "s ";
-
   // If the count down is finished, write some text
   if (distance < 0) {
     clearInterval(x);
