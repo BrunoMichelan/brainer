@@ -29,6 +29,31 @@ function searchFunction() {
     }
 }
 
+function searchFunction2() {
+    var input2, filter, ul, lii, liii, a, i;
+    input2 = document.getElementById('myinput2');
+    filter = input2.value.toUpperCase();
+    ul = document.getElementById('wrapper');
+    lii = ul.getElementsByTagName('lii');
+    liii = ul.getElementsByTagName('liii');
+
+    for(i=0 ; i< lii.length; i++){
+        a = lii[i].getElementsByTagName('a')[0];
+        if(a.innerHTML.toUpperCase().indexOf(filter) > -1){
+        lii[i].style.display = "";
+        ($("liii").hide())
+        v1= v1 + 1;
+        ("#labelV1").textContent= "g";
+        }
+
+        else{
+            lii[i].style.display = 'none';
+            $("liii").hide();}
+            if(a.innerHTML.toUpperCase().indexOf(filter) > -0.1){
+            $("liii").show();}
+    }
+}
+
 var meuCookie = {};
 
 function validarCookiePesq() {
@@ -132,7 +157,8 @@ function criarCookie2(campo, valor, dias) {
             var inputF = document.getElementById("myinput");
             var labelLala = document.getElementById("labelLala");
             
-            inputF.value = label.textContent; 
+            inputF.value = label.textContent;
+            inputF.hide;
             
             validarCookieMode();
             
@@ -154,6 +180,7 @@ window.onload = function() {
     gfg_Run();
     validarCookiePesq();
     validarCookieMode();
+    $("#myinput").hide();
     window.setTimeout(j , 0);
 };
 
@@ -161,9 +188,9 @@ function j(){
     console.log("1 milisegundo");
     gfg_Run();
     searchFunction();
+    fff();
     $("#myinput").hide();
-    var vr = document.getElementById("labelV1");
-    vr.textContent = v1;
+    ("#labelV1").textContent = v1;
 }
 
 function myFunction() {
@@ -235,3 +262,15 @@ var x = setInterval(function() {
     document.getElementById("demo").innerHTML = "🛠 A notícia será postada em breve 🛠";
   }
 }, 1000);
+
+function fff(){
+    var labelMode = document.getElementById("labelLala").textContent;
+    var darkMode = document.getElementById("darkMode");
+            
+    if (labelMode == "true"){
+        var darkModeonoff = document.querySelector('#darkMode').checked = true;
+                
+    }else{
+        var darkModeonoff = document.querySelector('#darkMode').checked = false;}
+    
+}
