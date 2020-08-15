@@ -416,6 +416,13 @@ input[type=checkbox]
     padding:10px;
  }
 }
+@media only screen and (max-width: 600px) {
+  .img17111{
+    height:180px;
+    width:100%;
+    padding:10px;
+ }
+}
 
 .lista{
   width:39%;
@@ -423,7 +430,7 @@ input[type=checkbox]
 
 @media only screen and (max-width: 600px) {
    .lista {
-       width: 89%;
+       width: 85%;
        padding: 1px;
        margin-left:50px;
   }
@@ -441,10 +448,10 @@ input[type=checkbox]
 
 @media only screen and (max-width: 600px) {
    .lista2 {
-       width: 100%;
+       width: 85%;
        padding: 3px;
        float:left;
-       margin-left:45px;
+       margin-left:50px;
        text-align: center;
   }
 }
@@ -456,7 +463,7 @@ input[type=checkbox]
 
 @media only screen and (max-width: 600px) {
    .lista3 {
-       width: 89%;
+       width: 85%;
        padding: 3px;
        margin-left:50px;
        float:left;
@@ -794,12 +801,14 @@ input[type=checkbox]
     font-size: 17px;
     border-radius: 20px 20px 20px 20px;
     color: black;
+    width: 100%;
   }
 }
 
 @media only screen and (max-width: 600px) {
 .bg-dark a.active{
     background-color: skyblue;
+    width: 100%;
   }
 }
 
@@ -808,6 +817,7 @@ input[type=checkbox]
     border-radius: 20px 20px 20px 20px;
     padding: 15px 60px;
     text-align: center;
+    width: 100%;
   }
 }
 
