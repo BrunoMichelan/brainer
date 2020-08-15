@@ -125,6 +125,14 @@ function pesquisar() {
     validarCookiePesq();
 }
 
+function pesquisar2() {  
+  var pesquisaValor = $(".inputPesqId2").val();
+  
+    criarCookie("Pesquisa", pesquisaValor, 1);
+  
+    validarCookiePesq();
+}
+
 function criarCookie(campo, valor, dias) {
   
   var dataExpiracao = new Date(); // Data de agora
@@ -175,6 +183,7 @@ function criarCookie2(campo, valor, dias) {
         }  
 
 $("#pesquisarButtonId").click(pesquisar);
+$("#pesquisarButtonId2").click(pesquisar2);
 
 window.onload = function() {
     gfg_Run();
