@@ -311,7 +311,7 @@ input[type=checkbox]
 @media screen and (max-width: 600px) {
   .topnav a, .topnav input[type=text] {
     float: none;
-    display: block;
+    display: none;
     text-align: center;
     width: 100%;
     margin: 0;
@@ -423,9 +423,9 @@ input[type=checkbox]
 
 @media only screen and (max-width: 600px) {
    .lista {
-     width: 100%;
-    padding: 1px;
-     margin-left:50px;
+       width: 89%;
+       padding: 1px;
+       margin-left:50px;
   }
 }
 
@@ -441,11 +441,11 @@ input[type=checkbox]
 
 @media only screen and (max-width: 600px) {
    .lista2 {
-     width: 100%;
-    padding: 3px;
-     float:left;
-     margin-left:45px;
-     text-align: center;
+       width: 100%;
+       padding: 3px;
+       float:left;
+       margin-left:45px;
+       text-align: center;
   }
 }
 
@@ -456,10 +456,10 @@ input[type=checkbox]
 
 @media only screen and (max-width: 600px) {
    .lista3 {
-     width: 100%;
-    padding: 3px;
-     margin-left:50px;
-     float:left;
+       width: 89%;
+       padding: 3px;
+       margin-left:50px;
+       float:left;
   }
 }
 
@@ -520,6 +520,23 @@ input[type=checkbox]
 @media only screen and (min-width: 601px) {
 .topnav a {
     background-color: #707070;
+  }
+}
+
+@media only screen and (min-width: 601px) {
+.navbar-dark{
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+.navbar-dark{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: .5rem 1rem;
   }
 }
 
@@ -749,4 +766,61 @@ input[type=checkbox]
     {
         display: none;
     }
+}
+
+@media only screen and (max-width: 600px) {
+  #lightmode{
+    width:85%;
+    margin-left:70px;
+  }
+}
+
+@media only screen and (min-width: 601px) {
+  #lightmode{
+    margin-left:40px;
+ }
+}
+
+@media only screen and (max-width: 600px) {
+.bg-dark a{
+    display: block;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: .5rem 1rem;
+    background-color: grey;
+    padding: 15px 60px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 20px 20px 20px 20px;
+    color: black;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+.bg-dark a.active{
+    background-color: skyblue;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+.bg-dark .inputPesqId2{
+    border-radius: 20px 20px 20px 20px;
+    padding: 15px 60px;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+.bg-dark #pesquisarButtonId2{
+  transition-duration: 0s;
+  width: 0px;
+  height:0px;
+  display: none;
+  text-align: center;
+  margin: 0;
+  padding: 0px;
+  border: none;
+  margin-top: 0px;
+  }
 }

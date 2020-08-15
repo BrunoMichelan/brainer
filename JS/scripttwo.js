@@ -125,14 +125,6 @@ function pesquisar() {
     validarCookiePesq();
 }
 
-function pesquisar2() {  
-  var pesquisaValor = $(".inputPesqId2").val();
-  
-    criarCookie("Pesquisa", pesquisaValor, 1);
-  
-    validarCookiePesq();
-}
-
 function criarCookie(campo, valor, dias) {
   
   var dataExpiracao = new Date(); // Data de agora
@@ -183,7 +175,6 @@ function criarCookie2(campo, valor, dias) {
         }  
 
 $("#pesquisarButtonId").click(pesquisar);
-$("#pesquisarButtonId2").click(pesquisar2);
 
 window.onload = function() {
     gfg_Run();
@@ -197,7 +188,6 @@ function j(){
     console.log("1 milisegundo");
     gfg_Run();
     searchFunction();
-    fff();
     $("#myinput").hide();
     var vr = document.getElementById("labelV1");
     vr.textContent = v1;
@@ -272,15 +262,3 @@ var x = setInterval(function() {
     document.getElementById("demo").innerHTML = "🛠 A notícia será postada em breve 🛠";
   }
 }, 1000);
-
-function fff(){
-    var labelMode = document.getElementById("labelLala").textContent;
-    var darkMode = document.getElementById("darkMode");
-            
-    if (labelMode == "true"){
-        var darkModeonoff = document.querySelector('#darkMode').checked = true;
-                
-    }else{
-        var darkModeonoff = document.querySelector('#darkMode').checked = false;}
-    
-}
