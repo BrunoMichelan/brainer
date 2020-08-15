@@ -778,7 +778,7 @@ input[type=checkbox]
 @media only screen and (max-width: 600px) {
   #lightmode{
     width:85%;
-    margin-left:50px;
+    margin-left:40px;
   }
 }
 
