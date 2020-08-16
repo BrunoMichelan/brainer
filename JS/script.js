@@ -73,17 +73,17 @@ function validarCookiePesq() {
   
 }
 
-$("hgg").hide();
-$("msm").click(expand);
-$("msm2").click(retract);
+$("#hgg").hide();
+$("#msm").click(expand);
+$("#msm2").click(retract);
 
 function expand() {
-    $("hgg").show();
-    $("msm").hide();
+    $("#hgg").show();
+    $("#msm").hide();
   }
 function retract() {
-    $("hgg").hide();
-    $("msm").show();
+    $("#hgg").hide();
+    $("#msm").show();
   }
 
 function validarCookieMode() {
