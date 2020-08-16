@@ -73,6 +73,19 @@ function validarCookiePesq() {
   
 }
 
+$("hgg").hide();
+$("msm").click(expand);
+$("msm2").click(retract);
+
+function expand() {
+    $("hgg").show();
+    $("msm").hide();
+  }
+function retract() {
+    $("hgg").hide();
+    $("msm").show();
+  }
+
 function validarCookieMode() {
   
     preencherMeuCookie2();
@@ -246,7 +259,7 @@ function onoff() {
 }
 
 // Set the date we're counting down to
-var countDownDate = new Date("Aug 15, 2020 21:00:00").getTime();
+var countDownDate = new Date("Aug 25, 2020 21:00:00").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function() {
