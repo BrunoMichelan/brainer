@@ -138,9 +138,9 @@ f{
 
 @media screen and (max-width: 600px) {
   .carousel-caption {
-    font-size: 8px;
-    height:60px;
-        width:253px;
+      font-size: 8px;
+      height:60px;
+      width:253px;
   }
 }
 
@@ -174,7 +174,7 @@ f{
 
 @media screen and (max-width: 600px) {
   .carousel-indicators {
-      height: 0px;
+      height: 4px;
       bottom: -1000px;
   }
 }
