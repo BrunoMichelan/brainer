@@ -175,7 +175,7 @@ f{
 @media screen and (max-width: 600px) {
   .carousel-indicators {
       height: 0px;
-      bottom: -100px;
+      bottom: -1000px;
   }
 }
 
