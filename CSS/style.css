@@ -168,13 +168,13 @@ f{
 @media screen and (max-width: 600px) {
   .carousel-indicators .inactive {
     width:40px;
-    height: 10px;
+    height:10px;
   }
 }
 
 @media screen and (max-width: 600px) {
   .carousel-indicators {
-    height:15px;
+    height:5px;
   }
 }
 
