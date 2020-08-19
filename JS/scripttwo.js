@@ -1,4 +1,4 @@
-/* CSS pertencente à brainer.tk */
+/* JS pertencente à brainer.tk */
 var v1 = (v1,0);
 
 function searchFunction() {

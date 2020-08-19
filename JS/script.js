@@ -167,12 +167,14 @@ function gfg_Run() {
             
     var labelMode = document.getElementById("labelLala").textContent;
     var darkMode = document.getElementById("darkMode");
+    var facebook2 = document.getElementById("facebook2");
             
     if (labelMode == "true"){
         document.body.style.backgroundColor = "#b3b3b3";
-                
+        facebook2.style.backgroundColor = "#b3b3b3";             
     }else{
         document.body.style.backgroundColor = "#212326";
+        facebook2.style.backgroundColor = "#b3b3b3";
     }
 }  
 
