@@ -64,6 +64,23 @@ function validarCookiePesq() {
     }
 }
 
+$("#mais2").hide();  
+$("#maisop").hide();
+$("#mais").click(mostrarmais);
+$("#mais2").click(mostrarmenos);
+
+function mostrarmais() {
+    $("#maisop").show();   
+    $("#mais2").show();  
+    $("#mais").hide();  
+}
+
+function mostrarmenos() {
+    $("#maisop").hide();   
+    $("#mais2").hide();  
+    $("#mais").show();  
+}
+
 function validarCookieMode() {
     preencherMeuCookie2();
     $("#labelLala").text(meuCookie.mode);
@@ -241,3 +258,6 @@ var x = setInterval(function() {
         document.getElementById("demo").innerHTML = "🛠 A notícia será postada em breve 🛠";
     }
 }, 1000);
+
+var build = document.getElementById('build');
+build.textContent = "build 8323082020";

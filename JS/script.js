@@ -64,9 +64,26 @@ function validarCookiePesq() {
     }
 }
 
+$("#mais2").hide();  
+$("#maisop").hide();
+$("#sla123").hide();
 $("#hgg").hide();
+$("#mais").click(mostrarmais);
+$("#mais2").click(mostrarmenos);
 $("#msm").click(expand);
 $("#msm2").click(retract);
+
+function mostrarmais() {
+    $("#maisop").show();   
+    $("#mais2").show();  
+    $("#mais").hide();  
+}
+
+function mostrarmenos() {
+    $("#maisop").hide();   
+    $("#mais2").hide();  
+    $("#mais").show();  
+}
 
 function expand() {
     $("#hgg").show();
@@ -265,8 +282,10 @@ function fff(){
     var darkMode = document.getElementById("darkMode");
             
     if (labelMode == "true"){
-        var darkModeonoff = document.querySelector('#darkMode').checked = true;
-                  
+        var darkModeonoff = document.querySelector('#darkMode').checked = true;            
     }else{
         var darkModeonoff = document.querySelector('#darkMode').checked = false;}   
 }
+
+var build = document.getElementById('build');
+build.textContent = "build 8323082020";
