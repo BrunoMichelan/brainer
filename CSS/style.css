@@ -316,6 +316,18 @@ input[type=checkbox]
     }
 }
 
+@media only screen and (min-width: 1500px) {
+#maisop {
+    display: block;
+    position:absolute;
+    z-index:1000;
+    background-color: grey;
+    width: 200px;
+    height: 53px;
+    margin-left: 47%;
+    }
+}
+
 #maisop a {
     float: left;
     display: block;
