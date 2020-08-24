@@ -304,6 +304,18 @@ input[type=checkbox]
     margin-left: 63.4%;
 }
     
+@media only screen and (min-width: 1200px) {
+#maisop {
+    display: block;
+    position:absolute;
+    z-index:1000;
+    background-color: grey;
+    width: 200px;
+    height: 53px;
+    margin-left: 64%;
+    }
+}
+
 @media only screen and (min-width: 1300px) {
 #maisop {
     display: block;
@@ -316,6 +328,18 @@ input[type=checkbox]
     }
 }
 
+@media only screen and (min-width: 1400px) {
+#maisop {
+    display: block;
+    position:absolute;
+    z-index:1000;
+    background-color: grey;
+    width: 200px;
+    height: 53px;
+    margin-left: 53%;
+    }
+}
+
 @media only screen and (min-width: 1500px) {
 #maisop {
     display: block;
@@ -324,7 +348,19 @@ input[type=checkbox]
     background-color: grey;
     width: 200px;
     height: 53px;
-    margin-left: 47%;
+    margin-left: 53%;
+    }
+}
+
+@media only screen and (min-width: 1600px) {
+#maisop {
+    display: block;
+    position:absolute;
+    z-index:1000;
+    background-color: grey;
+    width: 200px;
+    height: 53px;
+    margin-left: 48%;
     }
 }
 
