@@ -301,7 +301,19 @@ input[type=checkbox]
     background-color: grey;
     width: 200px;
     height: 53px;
-    margin-left: 60%;
+    margin-left: 63.4%;
+}
+    
+@media only screen and (min-width: 1300px) {
+#maisop {
+    display: block;
+    position:absolute;
+    z-index:1000;
+    background-color: grey;
+    width: 200px;
+    height: 53px;
+    margin-left: 59.5%;
+    }
 }
 
 #maisop a {
@@ -358,7 +370,7 @@ input[type=checkbox]
 #conteudo{
     width: 100%;
     background-color:#464b52;
-    height:155px;
+    height:162px;
     text-align: center;
     padding: 10px;
     margin-top:auto;
@@ -503,6 +515,12 @@ input[type=checkbox]
     #conteudo{
         width: 100%;
         height:26%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #fix{
+        margin-top:340px;
     }
 }
 

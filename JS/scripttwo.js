@@ -258,6 +258,3 @@ var x = setInterval(function() {
         document.getElementById("demo").innerHTML = "🛠 A notícia será postada em breve 🛠";
     }
 }, 1000);
-
-var build = document.getElementById('build');
-build.textContent = "build 8323082020";

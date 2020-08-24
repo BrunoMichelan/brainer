@@ -286,6 +286,3 @@ function fff(){
     }else{
         var darkModeonoff = document.querySelector('#darkMode').checked = false;}   
 }
-
-var build = document.getElementById('build');
-build.textContent = "build 8323082020";
