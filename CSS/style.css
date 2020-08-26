@@ -572,6 +572,18 @@ input[type=checkbox]
     }
 }
 
+@media only screen and (max-width: 600px) {
+    #fix2{
+        margin-top:60px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #fix3{
+        margin-top:250px;
+    }
+}
+
 #myinput{
     height:50px;
     width:40%;
@@ -672,7 +684,7 @@ input[type=checkbox]
 
 @media only screen and (max-width: 600px) {
     #wrapper{
-        margin-right:0%;
+        margin-right:10%;
     }
 }
 
@@ -951,14 +963,14 @@ input[type=checkbox]
 #noticiasr1 {
     cursor:pointer; 
     position:absolute; 
-    margin-left:13.2%;
+    margin-left:8.7%;
     font-size:125%;
     z-index:1000;
 }
 #noticiasl1 {
     cursor:pointer; 
     position:absolute; 
-    margin-left:84%;
+    margin-left:88%;
     font-size:125%;
     z-index:1000;
 }
