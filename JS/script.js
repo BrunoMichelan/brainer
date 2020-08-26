@@ -163,6 +163,14 @@ function pesquisar2() {
     validarCookiePesq();
 }
 
+function pesquisar3() {  
+    var pesquisaValor = $(".inputPesqId3").val();
+  
+    criarCookie("Pesquisa", pesquisaValor, 1);
+  
+    validarCookiePesq();
+}
+
 function criarCookie(campo, valor, dias) {
     var dataExpiracao = new Date();
   
@@ -213,6 +221,7 @@ function gfg_Run() {
 
 $("#pesquisarButtonId").click(pesquisar);
 $("#pesquisarButtonId2").click(pesquisar2);
+$("#pesquisarButtonId3").click(pesquisar3);
 
 window.onload = function() {
     gfg_Run();
@@ -225,7 +234,6 @@ window.onload = function() {
 function j(){
     console.log("1 milisegundo");
     gfg_Run();
-    searchFunction();
     fff();
     $("#myinput").hide();
     var vr = document.getElementById("labelV1");

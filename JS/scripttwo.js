@@ -51,6 +51,13 @@ function searchFunction2() {
     }
 }
 
+function pblank() {
+    labelV2 = document.getElementById('labelV1');
+    if (labelV2.textContent == "14"){
+        window.location.href = "/pesquisar.html";
+    }
+}
+
 var meuCookie = {};
 
 function validarCookiePesq() {
@@ -134,6 +141,14 @@ function pesquisar2() {
     validarCookiePesq();
 }
 
+function pesquisar3() {  
+    var pesquisaValor = $(".inputPesqId3").val();
+  
+    criarCookie("Pesquisa", pesquisaValor, 1);
+  
+    validarCookiePesq();
+}
+
 function criarCookie(campo, valor, dias) {
     var dataExpiracao = new Date();
   
@@ -171,7 +186,7 @@ function gfg_Run() {
             
     var labelMode = document.getElementById("labelLala").textContent;
     var darkMode = document.getElementById("darkMode");
-            
+    
     if (labelMode == "true"){
         document.body.style.backgroundColor = "#b3b3b3";
                 
@@ -183,6 +198,7 @@ function gfg_Run() {
 
 $("#pesquisarButtonId").click(pesquisar);
 $("#pesquisarButtonId2").click(pesquisar2);
+$("#pesquisarButtonId3").click(pesquisar3);
 
 window.onload = function() {
     gfg_Run();
@@ -199,7 +215,8 @@ function j(){
     $("#myinput").hide();
     var vr = document.getElementById("labelV1");
     vr.textContent = v1;
-}
+    pblank();
+}   
 
 function myFunction() {
     var checkkkBox = document.getElementById("agostoCheck");

@@ -244,6 +244,14 @@ input[type=checkbox]
     margin-right:10px;
 }
 
+.inputPesqId3
+{
+    z-index:1000;
+    margin-top: 0px;
+    transform: scale(2);
+    padding: 0px;
+}
+
 .checkboxtext
 {
     font-size: 110%;
@@ -257,6 +265,7 @@ input[type=checkbox]
 }
 
 .topnav a {
+    transition-duration: 0.4s;
     float: left;
     display: block;
     color: black;
@@ -285,11 +294,13 @@ input[type=checkbox]
 }
 
 .topnav #mais {
+    transition-duration: 0.4s;
     padding: 14px 30px;
     text-align: center;
 }
 
 .topnav #mais2 {
+    transition-duration: 0.4s;
     padding: 14px 30px;
     text-align: center;
 }
@@ -657,7 +668,37 @@ input[type=checkbox]
     font-size: 17px;
 }
 
+#pesquisarButtonId3 {
+    transition-duration: 0.4s;
+    width: 68px;
+    height:54px;
+    display: block;
+    text-align: center;
+    margin: 0;
+    padding: 0px;
+    border: none;
+    margin-top: -13px;
+    margin-left: 64.3%;
+    position: absolute;
+    z-index:999;
+    font-size: 17px;
+}
+
+@media only screen and (max-width: 600px) {
+    #pesquisarButtonId3 {
+        margin-left: 82%;
+    }
+    .inputPesqId3 {
+        margin-left: -10%;
+    }
+}
+
 #pesquisarButtonId:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#pesquisarButtonId3:hover {
     background-color: #4CAF50;
     color: white;
 }
@@ -967,12 +1008,21 @@ input[type=checkbox]
     font-size:125%;
     z-index:1000;
 }
+
+#noticiasr1:hover {
+    font-style: italic;
+}
+
 #noticiasl1 {
     cursor:pointer; 
     position:absolute; 
     margin-left:88%;
     font-size:125%;
     z-index:1000;
+}
+
+#noticiasl1:hover {
+    font-style: italic;
 }
 
 @media only screen and (max-width: 600px) {

@@ -90,4 +90,9 @@
         <lastmod>2020-08-23T03:58:57+00:00</lastmod>
         <priority>0.60</priority>
     </url>
+        <url>
+        <loc>https://brainer.tk/pesquisar.html</loc>
+        <lastmod>2020-08-26T03:58:57+00:00</lastmod>
+        <priority>0.40</priority>
+    </url>
 </urlset>
