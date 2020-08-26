@@ -64,15 +64,31 @@ function validarCookiePesq() {
     }
 }
 
+$("#noticias0").hide();  
+$("#noticiasr1").hide();  
 $("#mais2").hide();  
 $("#maisop").hide();
 $("#sla123").hide();
 $("#hgg").hide();
+$("#noticiasr1").click(mostrarn0);
+$("#noticiasl1").click(mostrarn1);
 $("#mais").click(mostrarmais);
 $("#mais2").click(mostrarmenos);
 $("#msm").click(expand);
 $("#msm2").click(retract);
 
+function mostrarn0() {
+    $("#noticiasl1").show();  
+    $("#noticiasr1").hide();
+    $("#noticias").show();  
+    $("#noticias0").hide();  
+}
+function mostrarn1() {
+    $("#noticiasl1").hide();  
+    $("#noticiasr1").show();
+    $("#noticias0").show();  
+    $("#noticias").hide();  
+}
 function mostrarmais() {
     $("#maisop").show();   
     $("#mais2").show();  
@@ -255,7 +271,7 @@ function onoff() {
     }
 }
 
-var countDownDate = new Date("Aug 25, 2020 21:00:00").getTime();
+var countDownDate = new Date("Aug 27, 2020 21:00:00").getTime();
 
 var x = setInterval(function() {
 
