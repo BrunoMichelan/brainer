@@ -376,6 +376,7 @@ input[type=checkbox]
 }
 
 #maisop a {
+    transition-duration: 0.4s;
     float: left;
     display: block;
     color: black;
