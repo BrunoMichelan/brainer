@@ -450,7 +450,7 @@ input[type=checkbox]
 
 .column.side {
     width: 25%;
-    padding: 8px;
+    padding: 16px;
 }
 
 .column.side2 {
@@ -609,6 +609,12 @@ input[type=checkbox]
     }
 }
 
+@media only screen and (min-width: 601px) {
+    #abril, #maio, #agosto {
+        margin-right:3%; 
+    }
+}
+    
 @media only screen and (max-width: 600px) {
     #myinput{
         width:97%;
