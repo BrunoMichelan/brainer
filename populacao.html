@@ -1,6 +1,6 @@
 <!-- HTML pertencente à brainer.tk -->
 <!DOCTYPE html>
-<title>Brainer - Jogos</title>
+<title>Brainer - População</title>
 <html>
     <link rel="shortcut icon" href="Imagens/brainer%20favicon.ico" />
     <body>
@@ -11,8 +11,8 @@
             <div class="topnav">
                 <a class="" href="/">Principal</a>
                 <a class="" href="/noticias.html">Notícias</a>
-                <a class="" href="/populacao.html">População</a>
-                <a class="active" href="/jogos.html">Jogos</a>
+                <a class="active" href="/populacao.html">População</a>
+                <a class="" href="/jogos.html">Jogos</a>
                 <a class="" href="/configuracoes.html">Configurações</a>
                 <a id="mais" style="cursor:pointer;">⬇</a>
                 <a id="mais2" style="cursor:pointer;">⬇</a>
@@ -29,8 +29,8 @@
                         <div class="bg-dark p-4">
                             <a class="" href="/">Principal</a>
                             <a class="" href="/noticias.html">Notícias</a>
-                            <a class="" href="/populacao.html">População</a>
-                            <a class="active" href="/jogos.html">Jogos</a>
+                            <a class="active" href="/populacao.html">População</a>
+                            <a class="" href="/jogos.html">Jogos</a>
                             <a class="" href="/configuracoes.html">Configurações</a>
                             <a class="" href="/tweets.html">Tweets</a>
                             <a class="" href="/sobre.html">Sobre</a>
@@ -45,16 +45,27 @@
                     <a class="" href="/tweets.html">Tweets</a>
                     <a class="" href="/sobre.html">Sobre</a>
                 </div>
-            <font color="white">
-                <h1>Jogos</h1></font>
-            <br><br><br><br><br><br>
-            <font size="10" color="white">
-                🛠 Página em construção 🛠
-            </font>
-        </center>
+            </center>
+        <div id="fundop">
+            <img id="fundopp" width="100%" height="599px" src="populacao/espaco.png">
+            <div id="textoo">
+                <h1>População</h1>
+            </div>
+        </div>
+        <div id="earth">
+            <img id="earth2" src="populacao/terra.png">
+            <div class="counter" data-target="7800000000">0</div>
+        </div>
+        <div id="moon">
+            <img id="moon2" src="populacao/lua.png">
+            <div class="counter2" data-target="0">0</div>
+        </div>
+        <div id="mars">
+            <img id="mars2" src="populacao/marte.png">
+            <div class="counter2" data-target="0">0</div>
+        </div>
         <div id="sla123">
-            <label id="labelLala"></label><label id="labelPesqId"></label><input type="text" name="search" value="" autocomplete="off" id="myinput" onkeyup="searchFunction()" placeholder="teste"><div id="facebook2"></div></div>
-        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <label id="labelLala"></label><label id="labelPesqId"></label><input type="text" name="search" value="" autocomplete="off" id="myinput" onkeyup="searchFunction()" placeholder="teste"><div id="facebook2"></div><ul id="wrapper"></ul></div>
         <div id="conteudo">
             <font color="white">
                 <center><font size="10">
@@ -90,3 +101,4 @@
                 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
                 <script src="JS/build.js" defer></script>
                 <script src="JS/script.js" defer></script>
+                <script src="JS/count.js" defer></script>
