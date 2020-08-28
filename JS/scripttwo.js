@@ -53,7 +53,7 @@ function searchFunction2() {
 
 function pblank() {
     labelV2 = document.getElementById('labelV1');
-    if (labelV2.textContent == "14"){
+    if (labelV2.textContent == "15"){
         window.location.href = "/pesquisar.html";
     }
 }
