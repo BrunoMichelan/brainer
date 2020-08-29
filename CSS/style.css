@@ -1032,7 +1032,7 @@ input[type=checkbox]
 
 @media only screen and (max-width: 600px) {
     #earth {
-        margin-top: -180%;
+        margin-top: -170%;
         width: 100%;
     }
     
@@ -1041,7 +1041,7 @@ input[type=checkbox]
     }
     
     #moon {
-        margin-top: -100%;
+        margin-top: -89%;
         width: 100%;
     }
     
@@ -1050,7 +1050,7 @@ input[type=checkbox]
     }
     
     #mars {
-        margin-top: -60%;
+        margin-top: -53%;
         width: 100%;
     }
     
@@ -1068,7 +1068,7 @@ input[type=checkbox]
     }
 
     #textoo {
-        margin-top: -200%;
+        margin-top: -185%;
         margin-left: 34%;
     }
 }
