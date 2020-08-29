@@ -1,6 +1,8 @@
+/* JS pertencente à brainer.tk */
 const counters = document.querySelectorAll('.counter');
 const counters2 = document.querySelectorAll('.counter2');
 const speed = 600;
+const speed2 = 600;
 
 counters.forEach(counter => {
 	const updateCount = () => {
@@ -25,7 +27,7 @@ counters2.forEach(counter2 => {
 		const target = +counter2.getAttribute('data-target');
 		const count2 = +counter2.innerText;
 
-		const inc2 = target / speed;
+		const inc2 = target / speed2;
         
 		if (count2 < target) {
 			counter2.innerText = count2 + inc2;
