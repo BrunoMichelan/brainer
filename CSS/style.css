@@ -1034,6 +1034,7 @@ input[type=checkbox]
     #earth {
         margin-top: -170%;
         width: 100%;
+        padding: 10px;
     }
     
     #earth2 {
@@ -1043,6 +1044,7 @@ input[type=checkbox]
     #moon {
         margin-top: -89%;
         width: 100%;
+        padding: 10px;
     }
     
     #moon2 {
@@ -1052,6 +1054,7 @@ input[type=checkbox]
     #mars {
         margin-top: -53%;
         width: 100%;
+        padding: 10px;
     }
     
     #mars2 {
