@@ -1014,10 +1014,6 @@ input[type=checkbox]
     z-index:2;
 }
 
-#earth:hover {
-    cursor: pointer;
-}
-
 #moon {
     position: absolute;
     z-index:2;
