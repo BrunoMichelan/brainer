@@ -1,3 +1,3 @@
 /* JS pertencente à brainer.tk */
 var build = document.getElementById('build');
-build.textContent = "build 10503092020";
+build.textContent = "build 10603092020";

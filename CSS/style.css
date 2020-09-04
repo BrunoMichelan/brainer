@@ -1014,6 +1014,10 @@ input[type=checkbox]
     z-index:2;
 }
 
+#earth:hover {
+    cursor: pointer;
+}
+
 #moon {
     position: absolute;
     z-index:2;
@@ -1264,12 +1268,12 @@ input[type=checkbox]
 
 .card-title {
     text-align: center;
-    font-size: 30px;
+    font-size: 48px;
 }
 
 .card-text {
     text-align: center;
-    font-size: 16px;
+    font-size: 24px;
     padding: 10px;
 }
 
@@ -1286,8 +1290,8 @@ input[type=checkbox]
     margin-left: 27%;
     color: white;
     font-family: sans-serif;
+    margin-top: 2%;
     font-size: 40px;
-    display: none;
     position: absolute;
     z-index:2;
 }
@@ -1296,6 +1300,7 @@ input[type=checkbox]
     margin-left: 27%;
     color: white;
     font-family: sans-serif;
+    margin-top: 6%;
     font-size: 40px;
     position: absolute;
     z-index:2;
@@ -1305,8 +1310,8 @@ input[type=checkbox]
     margin-left: 27%;
     color: white;
     font-family: sans-serif;
+    margin-top: 10%;
     font-size: 40px;
-    display: none;
     position: absolute;
     z-index:2;
 }
@@ -1315,18 +1320,68 @@ input[type=checkbox]
     margin-left: 27%;
     color: white;
     font-family: sans-serif;
+    margin-top: 14%;
     font-size: 40px;
-    display: none;
     position: absolute;
     z-index:2;
 }
 
-#stuff {
+#info5 {
     margin-left: 27%;
     color: white;
     font-family: sans-serif;
+    margin-top: 18%;
     font-size: 40px;
-    display: none;
+    position: absolute;
+    z-index:2;
+}
+
+#info6 {
+    margin-left: 27%;
+    color: white;
+    font-family: sans-serif;
+    margin-top: 22%;
+    font-size: 40px;
+    position: absolute;
+    z-index:2;
+}
+
+#info7 {
+    margin-left: 27%;
+    color: white;
+    font-family: sans-serif;
+    margin-top: 26%;
+    font-size: 40px;
+    position: absolute;
+    z-index:2;
+}
+
+#info8 {
+    margin-left: 27%;
+    color: white;
+    font-family: sans-serif;
+    margin-top: 30%;
+    font-size: 40px;
+    position: absolute;
+    z-index:2;
+}
+
+#info9 {
+    margin-left: 27%;
+    color: white;
+    font-family: sans-serif;
+    margin-top: 34%;
+    font-size: 40px;
+    position: absolute;
+    z-index:2;
+}
+
+#info10 {
+    margin-left: 27%;
+    color: white;
+    font-family: sans-serif;
+    margin-top: 38%;
+    font-size: 40px;
     position: absolute;
     z-index:2;
 }
