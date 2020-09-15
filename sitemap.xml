@@ -1,103 +1,117 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset
-        xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-                            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
-    <url>
-        <loc>https://brainer.tk/</loc>
-        <lastmod>2020-08-16T03:58:57+00:00</lastmod>
-        <priority>1.00</priority>
-    </url>
-    <url>
-        <loc>https://brainer.tk/populacao.html</loc>
-        <lastmod>2020-08-28T03:58:57+00:00</lastmod>
-        <priority>0.81</priority>
-    </url>
-    <url>
-        <loc>https://brainer.tk/noticias.html</loc>
-        <lastmod>2020-08-16T03:58:57+00:00</lastmod>
-        <priority>0.80</priority>
-    </url>
-    <url>
-        <loc>https://brainer.tk/conhecaonovoflightsimulator.html</loc>
-        <lastmod>2020-08-16T03:58:57+00:00</lastmod>
-        <priority>0.80</priority>
-    </url>
-    <url>
-        <loc>https://brainer.tk/conhecaaevolucaodosprocessadoresdaintel.html</loc>
-        <lastmod>2020-08-16T03:58:57+00:00</lastmod>
-        <priority>0.80</priority>
-    </url>
-    <url>
-        <loc>https://brainer.tk/conhecaogtabrasileiro.html</loc>
-        <lastmod>2020-08-16T03:58:57+00:00</lastmod>
-        <priority>0.80</priority>
-    </url>
-    <url>
-        <loc>https://brainer.tk/elonmuskexplicacamerainteriormodel3.html</loc>
-        <lastmod>2020-08-16T03:58:57+00:00</lastmod>
-        <priority>0.80</priority>
-    </url>
-    <url>
-        <loc>https://brainer.tk/iphonese2anunciadopelaapple.html</loc>
-        <lastmod>2020-08-16T03:58:57+00:00</lastmod>
-        <priority>0.80</priority>
-    </url>
-    <url>
-        <loc>https://brainer.tk/elonmuskanuncianovaversaodocybertruck.html</loc>
-        <lastmod>2020-08-16T03:58:57+00:00</lastmod>
-        <priority>0.80</priority>
-    </url>
-    <url>
-        <loc>https://brainer.tk/windows10at.html</loc>
-        <lastmod>2020-08-16T03:58:57+00:00</lastmod>
-        <priority>0.80</priority>
-    </url>
-    <url>
-        <loc>https://brainer.tk/controledops5.html</loc>
-        <lastmod>2020-08-16T03:58:57+00:00</lastmod>
-        <priority>0.80</priority>
-    </url>
-    <url>
-        <loc>https://brainer.tk/imagensdoflightsimulator.html</loc>
-        <lastmod>2020-08-16T03:58:57+00:00</lastmod>
-        <priority>0.64</priority>
-    </url>
-    <url>
-        <loc>https://brainer.tk/imagensdo171.html</loc>
-        <lastmod>2020-08-16T03:58:57+00:00</lastmod>
-        <priority>0.64</priority>
-    </url>
-    <url>
-        <loc>https://brainer.tk/windows1002.html</loc>
-        <lastmod>2020-08-16T03:58:57+00:00</lastmod>
-        <priority>0.64</priority>
-    </url>
-    <url>
-        <loc>https://brainer.tk/jogos.html</loc>
-        <lastmod>2020-08-16T03:58:57+00:00</lastmod>
-        <priority>0.60</priority>
-    </url>
-    <url>
-        <loc>https://brainer.tk/tweets.html</loc>
-        <lastmod>2020-08-16T03:58:57+00:00</lastmod>
-        <priority>0.60</priority>
-    </url>
-    <url>
-        <loc>https://brainer.tk/configuracoes.html</loc>
-        <lastmod>2020-08-16T03:58:57+00:00</lastmod>
-        <priority>0.60</priority>
-    </url>
-    <url>
-        <loc>https://brainer.tk/sobre.html</loc>
-        <lastmod>2020-08-23T03:58:57+00:00</lastmod>
-        <priority>0.60</priority>
-    </url>
-    <url>
-        <loc>https://brainer.tk/pesquisar.html</loc>
-        <lastmod>2020-08-26T03:58:57+00:00</lastmod>
-        <priority>0.40</priority>
-    </url>
+
+<url>
+  <loc>https://brainer.tk/</loc>
+  <lastmod>2020-09-04T15:40:24+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://brainer.tk/noticias.html</loc>
+  <lastmod>2020-09-04T15:40:25+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://brainer.tk/populacao.html</loc>
+  <lastmod>2020-09-04T15:40:25+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://brainer.tk/jogos.html</loc>
+  <lastmod>2020-09-04T15:40:24+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://brainer.tk/configuracoes.html</loc>
+  <lastmod>2020-09-04T15:40:24+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://brainer.tk/tweets.html</loc>
+  <lastmod>2020-09-04T15:40:25+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://brainer.tk/sobre.html</loc>
+  <lastmod>2020-09-04T15:40:25+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://brainer.tk/conhecaonovoflightsimulator.html</loc>
+  <lastmod>2020-09-04T15:40:24+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://brainer.tk/conhecaaevolucaodosprocessadoresdaintel.html</loc>
+  <lastmod>2020-09-04T15:40:24+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://brainer.tk/conhecaogtabrasileiro.html</loc>
+  <lastmod>2020-09-04T15:40:24+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://brainer.tk/elonmuskexplicacamerainteriormodel3.html</loc>
+  <lastmod>2020-09-04T15:40:24+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://brainer.tk/iphonese2anunciadopelaapple.html</loc>
+  <lastmod>2020-09-04T15:40:24+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://brainer.tk/elonmuskanuncianovaversaodocybertruck.html</loc>
+  <lastmod>2020-09-04T15:40:24+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://brainer.tk/windows10at.html</loc>
+  <lastmod>2020-09-04T15:40:25+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://brainer.tk/controledops5.html</loc>
+  <lastmod>2020-09-04T15:40:24+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://brainer.tk/terra.html</loc>
+  <lastmod>2020-09-04T15:40:25+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://brainer.tk/lua.html</loc>
+  <lastmod>2020-09-04T15:40:24+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://brainer.tk/marte.html</loc>
+  <lastmod>2020-09-04T15:40:24+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://brainer.tk/imagensdoflightsimulator.html</loc>
+  <lastmod>2020-09-04T15:40:24+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://brainer.tk/imagensdo171.html</loc>
+  <lastmod>2020-09-04T15:40:24+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://brainer.tk/windows1002.html</loc>
+  <lastmod>2020-09-04T15:40:25+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
 </urlset>

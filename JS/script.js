@@ -174,7 +174,7 @@ function pesquisar3() {
 function criarCookie(campo, valor, dias) {
     var dataExpiracao = new Date();
   
-    dataExpiracao.setTime(dataExpiracao.getTime() + (dias * 1 * 1 * 1 * 1 * 1500));
+    dataExpiracao.setTime(dataExpiracao.getTime() + (dias * 1 * 1 * 1 * 1 * 1750));
   
     var campoExpiracao = "expires=" + dataExpiracao.toUTCString();
   
