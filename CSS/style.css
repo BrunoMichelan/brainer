@@ -47,6 +47,17 @@ h1 {
     }
 }
 
+@media screen and (max-width: 600px) {
+    escrit2{
+        font-size:20px;
+    }
+}
+
+escrit2{
+    margin-top:60px;
+    margin-left:200px;
+}
+
 @media screen and (min-width: 601px) {
   .g{
     background-color:#181a18;
@@ -59,6 +70,34 @@ h1 {
         width:100%; 
         background-color:black;
         height:136px;
+    }
+}
+
+@media screen and (min-width: 601px) {
+  .gf{
+    background-color:green;
+  } 
+}
+
+@media screen and (max-width: 600px) {
+    .gf{
+        width:100%; 
+        background-color:green;
+        height:30px;
+    }
+}
+
+@media screen and (min-width: 601px) {
+  .gff{
+    background-color:blue;
+  } 
+}
+
+@media screen and (max-width: 600px) {
+    .gff{
+        width:100%; 
+        background-color:blue;
+        height:30px;
     }
 }
 
@@ -803,37 +842,9 @@ input[type=checkbox]
     background-color: #000000;
 }
 
-.overlay5 {
-    position: absolute;
-    margin-left:12.2%;
-    top: 796px;
-    bottom:0;
-    width:25%;
-    height:180px;
-    left: 0;
-    right: 0;
-    opacity: 0;
-    transition: .5s ease;
-    background-color: #000000;
-}
-
 .overlay6{
     position: absolute;
     margin-left:37.5%;
-    top: 796px;
-    bottom:0;
-    width:25%;
-    height:180px;
-    left: 0;
-    right: 0;
-    opacity: 0;
-    transition: .5s ease;
-    background-color: #000000;
-}
-
-.overlay7 {
-    position: absolute;
-    margin-left:62.8%;
     top: 796px;
     bottom:0;
     width:25%;
@@ -849,6 +860,62 @@ input[type=checkbox]
     position: absolute;
     margin-left:37.53%;
     top: 238px;
+    bottom:0;
+    width:25%;
+    height:180px;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #000000;
+}
+
+.overlay0 {
+    position: absolute;
+    margin-left:12.2%;
+    top: 1143px;
+    bottom:0;
+    width:25%;
+    height:180px;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #000000;
+}
+
+.overlay00 {
+    position: absolute;
+    margin-left:37.53%;
+    top: 1143px;
+    bottom:0;
+    width:25%;
+    height:180px;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #000000;
+}
+
+.overlay000 {
+    position: absolute;
+    margin-left:62.8%;
+    top: 1143px;
+    bottom:0;
+    width:25%;
+    height:180px;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #000000;
+}
+
+.overlay0000 {
+    position: absolute;
+    margin-left:37.53%;
+    top: 1326px;
     bottom:0;
     width:25%;
     height:180px;
@@ -891,6 +958,22 @@ input[type=checkbox]
     opacity: 0.8;
 }
 
+.container:hover .overlay0 {
+    opacity: 0.8;
+}
+
+.container:hover .overlay00 {
+    opacity: 0.8;
+}
+
+.container:hover .overlay000 {
+    opacity: 0.8;
+}
+
+.container:hover .overlay0000 {
+    opacity: 0.8;
+}
+
 .text {
     color: white;
     font-size: 20px;
@@ -912,14 +995,14 @@ input[type=checkbox]
 }
 
 @media (max-width: 600px) {
-    #noticias, #noticias0
+    #noticias, #noticias0, #postagens
     {
         display: none;
     }
 }
 
 @media (min-width: 601px) {
-    #myCarousel
+    #myCarousel, #myCarousel2
     {
         display: none;
     }

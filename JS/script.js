@@ -81,13 +81,13 @@ function mostrarn0() {
     $("#noticiasl1").show();  
     $("#noticiasr1").hide();
     $("#noticias").show();  
-    $("#noticias0").hide();  
+    $("#noticias0").hide();
 }
 function mostrarn1() {
     $("#noticiasl1").hide();  
     $("#noticiasr1").show();
     $("#noticias0").show();  
-    $("#noticias").hide();  
+    $("#noticias").hide();
 }
 function mostrarmais() {
     $("#maisop").show();   
