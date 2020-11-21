@@ -177,7 +177,7 @@ function pesquisar3() {
 function criarCookie(campo, valor, dias) {
     var dataExpiracao = new Date();
   
-    dataExpiracao.setTime(dataExpiracao.getTime() + (dias * 1 * 1 * 1 * 1 * 1750));
+    dataExpiracao.setTime(dataExpiracao.getTime() + (dias * 1 * 1 * 1 * 1 * 2000));
   
     var campoExpiracao = "expires=" + dataExpiracao.toUTCString();
   
@@ -189,7 +189,7 @@ function criarCookie(campo, valor, dias) {
 function criarCookie2(campo, valor, dias) {
     var dataExpiracao = new Date();
   
-    dataExpiracao.setTime(dataExpiracao.getTime() + (dias * 9999 * 365 * 24 * 60 * 60 * 1000));
+    dataExpiracao.setTime(dataExpiracao.getTime() + (dias * 9999 * 365 * 24 * 60 * 60 * 2000));
   
     var campoExpiracao = "expires=" + dataExpiracao.toUTCString();
   
