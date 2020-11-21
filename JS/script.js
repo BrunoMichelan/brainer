@@ -64,6 +64,7 @@ function validarCookiePesq() {
     }
 }
 
+$("#br").hide();
 $("#noticias0").hide();  
 $("#noticiasr1").hide();  
 $("#mais2").hide();  
@@ -104,11 +105,13 @@ function mostrarmenos() {
 function expand() {
     $("#hgg").show();
     $("#msm").hide();
+    $("#br").show();
 }
 
 function retract() {
     $("#hgg").hide();
     $("#msm").show();
+    $("#br").hide();
 }
 
 function validarCookieMode() {
