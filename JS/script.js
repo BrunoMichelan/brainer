@@ -244,10 +244,16 @@ function j(){
 }
 
 function myFunction() {
+    var checkkkkBox = document.getElementById("novembroCheck");
     var checkkkBox = document.getElementById("agostoCheck");
     var checkBox = document.getElementById("maioCheck");
     var checkkBox = document.getElementById("abrilCheck");
     
+    if (checkkkkBox.checked == true){
+        $("#novembro").show();
+    } else {
+        $("#novembro").hide();
+    }
     if (checkkkBox.checked == true){
         $("#agosto").show();
     } else {
@@ -282,7 +288,7 @@ function onoff() {
     }
 }
 
-var countDownDate = new Date("Aug 27, 2020 21:00:00").getTime();
+var countDownDate = new Date("Nov 28, 2020 14:00:00").getTime();
 
 var x = setInterval(function() {
 
