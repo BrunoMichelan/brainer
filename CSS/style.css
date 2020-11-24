@@ -1538,6 +1538,16 @@ input[type=checkbox]
         position: absolute;
         z-index:2;
     }
+    
+    #info70 {
+        margin-left: 6%;
+        color: white;
+        font-family: sans-serif;
+        margin-top: 210%;
+        font-size: 21.7px;
+        position: absolute;
+        z-index:2;
+    }
 
     #info8 {
         margin-left: 6%;
@@ -1545,6 +1555,16 @@ input[type=checkbox]
         font-family: sans-serif;
         margin-top: 220%;
         font-size: 30px;
+        position: absolute;
+        z-index:2;
+    }
+    
+    #info80 {
+        margin-left: 6%;
+        color: white;
+        font-family: sans-serif;
+        margin-top: 220%;
+        font-size: 26px;
         position: absolute;
         z-index:2;
     }
@@ -1640,8 +1660,28 @@ input[type=checkbox]
         position: absolute;
         z-index:2;
     }
+    
+    #info70 {
+        margin-left: 27%;
+        color: white;
+        font-family: sans-serif;
+        margin-top: 26%;
+        font-size: 40px;
+        position: absolute;
+        z-index:2;
+    }
 
     #info8 {
+        margin-left: 27%;
+        color: white;
+        font-family: sans-serif;
+        margin-top: 30%;
+        font-size: 40px;
+        position: absolute;
+        z-index:2;
+    }
+    
+    #info80 {
         margin-left: 27%;
         color: white;
         font-family: sans-serif;
