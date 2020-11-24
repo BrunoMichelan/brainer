@@ -45,8 +45,10 @@ function searchFunction2() {
 
         else{
             lii[i].style.display = 'none';
+            $("divv").hide()
             $("liii").hide();}
         if(a.innerHTML.toUpperCase().indexOf(filter) > -0.1){
+            $("divv").show()
             $("liii").show();}
     }
 }
