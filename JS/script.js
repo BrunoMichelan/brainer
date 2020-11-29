@@ -290,7 +290,7 @@ function onoff() {
     }
 }
 
-var countDownDate = new Date("Nov 28, 2020 14:00:00").getTime();
+var countDownDate = new Date("Dec 03, 2020 14:00:00").getTime();
 
 var x = setInterval(function() {
 
